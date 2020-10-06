@@ -12,7 +12,7 @@ function fuzzyMatch(drivers, name) {
 
     return driver.charAt(0) === name.charAt(0)
 
-    
+
   })
 }
 
