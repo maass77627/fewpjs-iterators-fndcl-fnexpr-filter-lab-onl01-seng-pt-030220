@@ -13,7 +13,7 @@
 function findMatching(drivers, name) {
 // let array = []
   return drivers.filter(driver => {
-    return driver === name
+    return driver.toLowerCase() === name.toLowerCase
   })
 }
 
